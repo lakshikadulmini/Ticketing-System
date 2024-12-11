@@ -14,7 +14,6 @@ Prerequisites
 Ensure you have the following installed:
 
     Node.js: v16+
-    Java: JDK 11 or higher
     Vite: For React-based frontend
     FireBase: For transaction data persistence 
     Git: For version control
@@ -72,14 +71,3 @@ Usage Instructions
     Dynamic Management:
         Add/remove vendors or customers during runtime via the GUI.
 
-Testing
-Manual Testing
-
-    Use the GUI to simulate ticket buying/selling scenarios with multiple customers and vendors.
-    Test edge cases such as exceeding ticket capacity or invalid configurations.
-
-Automated Testing
-
-    Backend test cases are included in the tests directory. Run with:
-
-npm test
